@@ -1,0 +1,53 @@
+.list{
+    margin: 20px auto;
+    display: flex;
+    flex-direction:row;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.model{
+    padding: 5px;
+    display: flex;
+    flex-direction:column;
+    width: 210px;
+    height: 360px;
+    background-color: gainsboro;
+    margin: 5px;
+}
+
+.ret{
+   align-self: flex-end;
+    margin-right: 5px;
+}
+
+.name{
+    text-align: center;
+    margin-top: 240px;
+    font-size: 15x;
+    height: 55px;
+}
+
+.strike{
+    color:gray;
+    font-size: 15px;
+    align-self: flex-start;
+    margin-left: 5px;
+}
+
+.nprice{
+    color:red;
+    font-size: 18px;
+    align-self: flex-start;
+    margin-left: 5px;
+}
+
+.price{
+    margin-top: 10px;
+    color: black;
+    font-size: 18px;
+    align-self: flex-start;
+    margin-left: 5px;
+}
